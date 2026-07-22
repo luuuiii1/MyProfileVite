@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MySpaceLuui</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Zilla+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loading-screen">
+  <img src="assets/bluespiral.png" alt="" class="loading-spiral">
+  <h1 class="loading-title">Luuui</h1>
+  <div class="loading-dots">
+    <span></span><span></span><span></span>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="topnav">
+  <a href="#home" class="brand">
+    <img src="assets/bluespiral.png" alt="">
+    <span>Luuui</span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="menu">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">home</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#skills">skills</a></li>
+    <li><a href="#resume">resume</a></li>
+    <li><a href="#blog">blog</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME / HERO -->
+<header id="home" class="section hero">
+  <img src="assets/flower3.png" class="deco deco-hero-1 float-slow" alt="">
+  <img src="assets/ribbon.png" class="deco deco-hero-2 float-fast" alt="">
+  <img src="assets/flower1.png" class="deco deco-hero-3 float-slow" alt="">
+
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="eyebrow">welcome to my little corner of the internet</p>
+      <h1>Hi, I'm <span contenteditable="true" data-placeholder="Your Name">Luuuui</span></h1>
+      <p class="tagline" contenteditable="true" data-placeholder="A one-line tagline about what you do and what you love.">A one-line tagline about what you do and what you love.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">see my work</a>
+        <a href="#contact" class="btn btn-ghost">say hello</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="assets/book.png" alt="Journal" class="hero-book">
+      <img src="assets/rng6.png" alt="" class="hero-seal">
+    </div>
+  </div>
+  <div class="scroll-hint">scroll down ↓</div>
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <img src="assets/teddy.png" class="deco deco-about-1 float-slow" alt="">
+  <img src="assets/newjeans.png" class="deco deco-about-2 float-fast" alt="">
+  <img src="assets/flower5.png" class="deco deco-about-3" alt="">
+
+  <p class="section-eyebrow">01 — about me</p>
+  <h2 class="section-title">a little bit about my story</h2>
+
+  <div class="about-grid">
+    <div class="about-photo">
+      <div class="polaroid-frame">
+        <span class="photo-placeholder"><img src="assets/PICT0081.JPG" alt="Your photo"></span>
+      </div>
+      <p class="photo-caption">that's me!</p>
+    </div>
+    <div class="about-copy" contenteditable="false" data-placeholder="text.">Hi, I'm Luuui, a passionate web developer and designer with a love for creating intuitive and visually appealing digital experiences. I studied Computer Science and have been honing my skills in front-end development, focusing on HTML, CSS, and JavaScript. My curiosity drives me to explore new technologies and design trends, always aiming to improve user experience. I'm currently working on several personal projects that showcase my abilities in web development and design. My goal is to contribute to innovative projects that make a positive impact on users' lives while continuing to grow as a developer and designer.</div>
+  </div>
+
+  <div class="about-goals">
+    <div class="goal-card">
+      <h3>background</h3>
+      <p contenteditable="false" data-placeholder="Where you're from, what you studied.">Im from the Philippines and studied Computer Science.</p>
+    </div>
+    <div class="goal-card">
+      <h3>currently</h3>
+      <p contenteditable="false" data-placeholder="What you're learning or working on right now.">I'm currently learning more about React and Node.js.</p>
+    </div>
+    <div class="goal-card">
+      <h3>goals</h3>
+      <p contenteditable="false" data-placeholder="Where you want to be next.">To be a game and web developer.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section projects">
+  <img src="assets/flower2.png" class="deco deco-proj-1 float-slow" alt="">
+  <p class="section-eyebrow">02 — projects</p>
+  <h2 class="section-title">things i've made</h2>
+  <p class="section-sub">a few pieces from my sketchbook of code, design, and research.</p>
+
+  <div class="project-grid">
+
+    <article class="project-card">
+      <div class="project-thumb">
+      <img src="assets/Project1.png" alt="Project name screenshot">
+      </div>
+      <span class="tag-star"><img src="assets/star.png" alt=""></span>
+      <h3 contenteditable="false" data-placeholder="Project name">PanFleurdelys</h3>
+      <p contenteditable="false" data-placeholder="One or two lines about what this project does and the problem it solves.">A modern web application for exploring and sharing floral designs.</p>
+      <div class="project-links">
+        <!--
+        <a href="#" class="link-chip">live demo</a> -->
+        <a href="https://luuuiii1.github.io/PanFleurdelys/" class="link-chip">github</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-thumb">
+      <img src="assets/project2.png" alt="Project name screenshot">
+      </div>
+      <span class="tag-star"><img src="assets/star1.png" alt=""></span>
+      <h3 contenteditable="false" data-placeholder="Project name">love cats</h3>
+      <p contenteditable="false" data-placeholder="One or two lines about what this project does and the problem it solves.">A simple web app for cat lovers to interact with.</p>
+      <div class="project-links">
+        <!--
+        <a href="#" class="link-chip">live demo</a> -->
+        <a href="https://luuuiii1.github.io/lovecats/" class="link-chip">github</a>
+      </div>
+    </article>
+
+    <article class="project-card">
+      <div class="project-thumb">
+      <img src="assets/project3.png" alt="Project name screenshot">
+      </div>
+      <span class="tag-star"><img src="assets/star.png" alt=""></span>
+      <h3 contenteditable="false" data-placeholder="Project name">Phildelica</h3>
+      <p contenteditable="false" data-placeholder="One or two lines about what this project does and the problem it solves.">A creative web application for a food ordering system.</p>
+      <div class="project-links">
+        <!--
+        <a href="#" class="link-chip">live demo</a> -->
+        <a href="https://luuuiii1.github.io/Phildelica/" class="link-chip">github</a>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section skills">
+  <img src="assets/flower_4.png" class="deco deco-skills-1 float-slow" alt="">
+  <p class="section-eyebrow">03 — skills</p>
+  <h2 class="section-title">what's in my toolbox</h2>
+
+  <div class="skills-grid">
+    <div class="skills-col">
+      <h3><img src="assets/buttun.png" alt="" class="btn-icon">technical</h3>
+      <ul class="skill-list">
+        <li contenteditable="false">HTML &amp; CSS</li>
+        <li contenteditable="false">JavaScript</li>
+        <li contenteditable="false">Python</li>
+        <li contenteditable="false">SQL</li>
+      </ul>
+    </div>
+    <div class="skills-col">
+      <h3><img src="assets/buttun.png" alt="" class="btn-icon">soft skills</h3>
+      <ul class="skill-list">
+        <li contenteditable="false">teamwork</li>
+        <li contenteditable="false">communication</li>
+        <li contenteditable="false">problem solving</li>
+        <li contenteditable="false">time management</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME (disabled)
+<section id="resume" class="section resume">
+  <img src="assets/rng2.png" class="deco deco-resume-1 float-slow" alt="">
+  <p class="section-eyebrow">04 — resume</p>
+  <h2 class="section-title">education &amp; experience</h2>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="timeline-dot"></span>
+      <p class="timeline-date" contenteditable="true">2023 — present</p>
+      <h3 contenteditable="true" data-placeholder="School / Company name">School / Company name</h3>
+      <p contenteditable="true" data-placeholder="What you studied or worked on.">What you studied or worked on.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-dot"></span>
+      <p class="timeline-date" contenteditable="true">2021 — 2023</p>
+      <h3 contenteditable="true" data-placeholder="School / Company name">School / Company name</h3>
+      <p contenteditable="true" data-placeholder="What you studied or worked on.">What you studied or worked on.</p>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-dot"></span>
+      <p class="timeline-date" contenteditable="true">certification</p>
+      <h3 contenteditable="true" data-placeholder="Certification name">Certification name</h3>
+      <p contenteditable="true" data-placeholder="Issuing organization, year.">Issuing organization, year.</p>
+    </div>
+  </div>
+
+  <a href="#" class="resume-download">
+    <img src="assets/rng2.png" alt="">
+    <span>download my resume</span>
+  </a>
+</section>
+-->
+
+<!-- BLOG -->
+<section id="blog" class="section blog">
+  <img src="assets/bluespiral.png" class="deco deco-blog-1 spin-slow" alt="">
+  <p class="section-eyebrow">05 — blog / updates</p>
+  <h2 class="section-title">notes &amp; reflections</h2>
+
+  <div class="blog-list">
+    <article class="blog-entry">
+      <p class="blog-date" contenteditable="false">jan 2026</p>
+      <h3 contenteditable="false" data-placeholder="Post title">Phildelica</h3>
+      <p contenteditable="false" data-placeholder="A short excerpt or reflection goes here.">A ordering system for a local restaurant.</p>
+    </article>
+    <article class="blog-entry">
+      <p class="blog-date" contenteditable="false">dec 2025</p>
+      <h3 contenteditable="false" data-placeholder="Post title">PanFleurdelys</h3>
+      <p contenteditable="false" data-placeholder="A short excerpt or reflection goes here.">A simple web application for managing a local flower shop.</p>
+    </article>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section contact">
+  <img src="assets/rng1.png" class="deco deco-contact-1" alt="">
+  <img src="assets/ribbon.png" class="deco deco-contact-2 float-fast" alt="">
+
+  <div class="contact-inner">
+    <div class="contact-text">
+      <p class="section-eyebrow">06 — contact</p>
+      <h2 class="section-title">let's talk</h2>
+      <p contenteditable="false" data-placeholder="Have a project in mind or just want to say hi? Drop a message below.">Have a project in mind or just want to say hi? Drop a message below.</p>
+
+      <div class="social-row">
+        <a href="#" class="social-chip">email</a>
+        <a href="#" class="social-chip">github</a>
+        <a href="#" class="social-chip">linkedin</a>
+        <a href="#" class="social-chip">instagram</a>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <label>name
+        <input type="text" name="name" placeholder="Your name">
+      </label>
+      <label>email
+        <input type="email" name="email" placeholder="you@email.com">
+      </label>
+      <label>message
+        <textarea name="message" rows="4" placeholder="Write your message..."></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">send message</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+
+    <img src="assets/telephone.png" alt="" class="contact-phone">
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <img src="assets/bluespiral.png" alt="" class="footer-spiral">
+  <p class="footer-name" contenteditable="false">Luuui</p>
+  <ul class="footer-links">
+    <li><a href="#home">home</a></li>
+    <li><a href="#about">about</a></li>
+    <li><a href="#projects">projects</a></li>
+    <li><a href="#contact">contact</a></li>
+  </ul>
+  <p class="footer-copy">© <span id="year"></span> Luuui. made with a little bit of blue.</p>
+</footer>
+
+<script type="module" src="/src/js/script.js"></script>
+</body>
+</html>
